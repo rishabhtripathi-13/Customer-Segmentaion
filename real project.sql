@@ -109,5 +109,3 @@ ORDER BY TotalSalesByContact DESC;
 SELECT DEALSIZE, SUM(SALES) AS TotalSalesByDealSize, SUM(QUANTITYORDERED) AS TotalQuantityByDealSize
 FROM project.project_data
 GROUP BY DEALSIZE;
-
-
